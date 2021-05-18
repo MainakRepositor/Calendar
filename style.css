@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+section
+{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #161623;
+    overflow: hidden;
+}
+section::before
+{
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(#ffc107,#f10915);
+    border-radius: 50%;
+    transform: translate(-250px,-120px);
+}
+section::after
+{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(#2196f3,#b413e6);
+    border-radius: 50%;
+    transform: translate(250px,150px);
+}
+.box
+{
+    position: relative;
+    z-index: 1000;
+}
+.container
+{
+    position: relative;
+    width: 400px;
+    min-height: 400px;
+    background: rgba(255,255,255,0.1);
+    box-shadow:0 25px 45px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(25px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#calendar
+{
+    width: 100%;
+    padding: 20px;
+}
+#calendar table
+{
+    width: 100%;
+    margin-top: 40px;
+    border-spacing: 5px;
+}
+#calendar table td
+{
+    color:#fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#calendar table td:hover
+{
+   background:#fff;
+   color:#111 !important;
+    
+}
+#calendar table tr:nth-child(1) td
+{
+    background: #fff;
+    color:#111;
+    border-radius: 5px;
+    font-weight: 600;
+    
+}
+
+.dycalendar-target-date
+{
+    background: #fff;
+    color:#111; 
+}
+.dycalendar-prev-next-btn.prev-btn 
+
+{
+    
+    background: #fff;
+    color:#111;
+    width: 44px;
+    height: 38px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.dycalendar-prev-next-btn.next-btn
+{
+    
+    background: #fff;
+    color:#111;
+    width: 44px;
+    height: 38px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.dycalendar-span-month-year
+{
+    color:#fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+h3,a{
+    padding-top: 50px;
+    color: rgb(16, 191, 235);
+    text-align: center;
+    text-emphasis: none;
+    
+}

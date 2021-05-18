@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cal.css">
+    <title>CALENDAR-UI</title>
+
+</head>
+<body>
+    <section>
+        <div class="box">
+            <div class="container">
+                <div id="calendar">
+
+                </div>
+              
+            </div>
+            <h3>Made by <a href="https://www.linkedin.com/in/mainak-chaudhuri-127898176/">Mainak</a></h3>
+        </div>
+       
+    </section>
+
+    <script src="calendar.js"></script>
+    <script>
+        dycalendar.draw({
+            target:'#calendar',
+            type:'month',
+            dayformat:'full',
+            monthformat:'full',
+            highlighttargetdate:true,
+            prevnextbutton:'show'
+
+        })
+    </script>
+</body>
+</html>
