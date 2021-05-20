@@ -1,6 +1,14 @@
 # Calendar
 A simple javascript calendar with a glassmorphic UI
 
+### Techs Used:
+
+<ul>
+  <li>HTML 5</li>
+  <li>CSS 3</li>
+  <li>Vanilla JavaScript</li>
+</ul>
+
 ### Screenshot:
 
 <hr>
